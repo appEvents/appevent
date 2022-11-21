@@ -5,8 +5,8 @@ import SearchBar from './SearchBar'
 
 export default function Header() {
   return (
-    <div className='flex w-full h-[75px] justify-center  bg-blue-900'>
-          <div className='flex justify-between w-[100%] h-[100%] bg-red-900'>
+    <div className='wrapperHeader'>
+          {/* <div className='flex justify-between w-[100%] h-[100%] bg-red-900'>
               <div className='wrapperLogoMenuBurger' >
                     <MenuBurger/>
                     <Logo/>
@@ -15,7 +15,7 @@ export default function Header() {
               <div className='wrapperSearchBarCardProfile' >
 
               </div>
-          </div>
+          </div> */}
     </div>
   )
 }

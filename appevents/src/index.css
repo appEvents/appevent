@@ -1,12 +1,6 @@
-* {
+/* * {
     background-color: black;
-}
-.App{
-    display: flex;
-    justify-content:center;
-    width: 95%;
-}
-
+} */
 
 
 @tailwind base;
@@ -17,3 +11,15 @@
 @import "../src/styles/header/Header.css";
 @import "../src/styles/SearchBar/SearchBar.css";
 @import "../src/styles/MeuBurger/MenuBurger.css";
+
+.App {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    width: 100%;
+}
+
+.wrapperApp {
+    width: 95%;
+
+}
