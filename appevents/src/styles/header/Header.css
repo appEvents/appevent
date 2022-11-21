@@ -18,5 +18,9 @@
     .wrapperSearchBar {
       display: none;
     }
-    
+    .wrapperSearchBarCardProfile{
+        width: 200px;
+        height: 75px;
+        background-color: blueviolet;
+    }
 }
