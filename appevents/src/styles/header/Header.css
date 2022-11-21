@@ -1,0 +1,22 @@
+/* w-[150px] h-[75px] bg-orange-700 items-end */
+/* w-[150px] h-[75px] bg-orange-700 items-end */
+
+.wrapperLogoMenuBurger {
+    display: flex;
+    align-items: flex-end;
+    width: 150px;
+    height: 75px;
+    background-color: blueviolet;
+}
+.wrapperSearchBarCardProfile{
+    width: 150px;
+    height: 75px;
+    background-color: blueviolet;
+}
+
+@media screen and (max-width:800px) {
+    .wrapperSearchBar {
+      display: none;
+    }
+    
+}

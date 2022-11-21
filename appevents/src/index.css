@@ -1,4 +1,14 @@
+* {
+    background-color: black;
+}
+
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import "../src/styles/header/Header.css";
+@import "../src/styles/SearchBar/SearchBar.css";
+@import "../src/styles/MeuBurger/MenuBurger.css";

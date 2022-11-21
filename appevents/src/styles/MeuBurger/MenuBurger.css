@@ -1,0 +1,37 @@
+.wrapperMenuBurger {
+    display: block;
+    height: 75px;
+    width: 50%;
+    background-color: orange;
+}
+
+.wrapperMenuBurger {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+.buttonMenuBurger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.burgerBar {
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(253, 255, 0, .8) 35%, rgba(52, 73, 194, .8) 69%);
+}
+
+@media screen and (max-width:700px) {
+    .wrapperMenuBurger {
+        display: none;
+        /* height: 75px;
+        width: 50%;
+        background-color: orange; */
+    }
+
+}
