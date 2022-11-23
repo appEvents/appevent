@@ -1,0 +1,16 @@
+.wrapperProfileInput {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 75px;
+    height: 100%;
+    background-color: blue;
+
+}
+
+@media screen and (max-width:450px) {
+    
+    .wrapperProfileInput{
+        width: 37px;
+    }
+}

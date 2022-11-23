@@ -1,0 +1,15 @@
+.wrapperCardInput {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 75px;
+    height: 100%;
+    background-color: black;
+}
+
+@media screen and (max-width:450px) {
+    
+    .wrapperCardInput{
+        width: 37px;
+    }
+}

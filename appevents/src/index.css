@@ -11,11 +11,14 @@
 @import "../src/styles/header/Header.css";
 @import "../src/styles/SearchBar/SearchBar.css";
 @import "../src/styles/MeuBurger/MenuBurger.css";
+@import "../src/styles/Card/CardInput.css";
+@import "../src/styles/Profile/ProfileInput.css";
+@import "../src/styles/SearchBar/SearchInput.css";
 
 .App {
     display: flex;
     justify-content: center;
-    background-color: blue;
+    /* background-color: blue; */
     width: 100%;
 }
 

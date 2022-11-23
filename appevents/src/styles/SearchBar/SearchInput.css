@@ -1,0 +1,25 @@
+.wrapperSearchInput {
+    display: none;
+  }
+
+
+@media screen and (max-width:800px) {
+    
+    .wrapperSearchInput{
+        display: block;
+        justify-content: flex-end;
+        align-items: center;
+        width: 75px;
+        height: 100%;
+        background-color: chartreuse;
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    
+    .wrapperSearchInput{
+        display: block;
+        width: 37px;
+    }
+}
