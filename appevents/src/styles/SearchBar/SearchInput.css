@@ -1,24 +1,25 @@
 .wrapperSearchInput {
     display: none;
-  }
+}
 
 
 @media screen and (max-width:800px) {
-    
-    .wrapperSearchInput{
+
+    .wrapperSearchInput {
         display: block;
         justify-content: flex-end;
         align-items: center;
         width: 75px;
         height: 100%;
-        background-color: chartreuse;
+        cursor: pointer;
+        /* background-color: chartreuse; */
     }
-    
+
 }
 
 @media screen and (max-width:450px) {
-    
-    .wrapperSearchInput{
+
+    .wrapperSearchInput {
         display: block;
         width: 37px;
     }
