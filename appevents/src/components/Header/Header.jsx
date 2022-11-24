@@ -17,7 +17,7 @@ export default function Header() {
         <MenuBurger/>
         <Logo/>
       </div>
-      <SearchBar/>
+      <SearchBar searchInputClicked={searchInputClicked} setSearchInputClicked={setSearchInputClicked}/>
       <div className='wrapperCardProfile' >
         <SearchInput searchInputClicked={searchInputClicked} setSearchInputClicked={setSearchInputClicked}/>
         {searchInputClicked ? <SearchContainer searchInputClicked={searchInputClicked} setSearchInputClicked={setSearchInputClicked}/>:null}

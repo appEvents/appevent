@@ -26,6 +26,7 @@
 }
 
 .wrapperApp {
+    /* max-width:360px ; */
     width: 95%;
     background-color: brown;
 

@@ -6,13 +6,14 @@
 }
 
 .searchBar {
+    cursor: pointer;
     display: flex;
     align-items: center;
     padding-left: 10px;
     width: 90%;
     height: 40px;
     border-radius: 10px;
-    background-color: rgba(234, 229, 229, 0.3);
+    background-color: #eae5e54d;
 }
 
 /* w-[90%] h-[40px] rounded-[10px] bg-[rgba(0, 0, 255, 0.3) */

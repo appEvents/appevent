@@ -12,7 +12,7 @@ const RootSubscription = () => {
         <div>
             <Routes>
                 <Route path='*' element={<Home/>} />
-                <Route path='profile' element={<Profile/>} />
+                {/* <Route path='profile1' element={<Profile/>} /> */}
                 <Route path='signIn' element={<SignIn/>} />
                 <Route path='signUp' element={<SignUp/>} />
                 <Route path='search' element={<Search/>} />
