@@ -1,22 +1,28 @@
-import React from 'react'
+import React,  {useState} from 'react'
 import Logo from '../Goba/Logo'
 import  {CardInput}  from './CardInput'
 import MenuBurger from './MenuBurger'
 import { ProfileInput } from './ProfileInput'
 import SearchBar from './SearchBar'
 import { SearchInput } from './SearchInput'
+import { SearchContainer } from '../../containers/SearchContainer'
+
 
 export default function Header() {
+
+  const [searchInputClicked, setSearchInputClicked] = useState(false)
   return (
-    <div className='flex items-end justify-between w-full h-[75px] bg-yellow-900'>
+    <div className='flex items-end justify-between w-[95%] h-[75px] '>
       <div className='wrapperLogoMenuBurger' >
         <MenuBurger/>
         <Logo/>
       </div>
       <SearchBar/>
       <div className='wrapperCardProfile' >
-        <SearchInput/>
+        <SearchInput searchInputClicked={searchInputClicked} setSearchInputClicked={setSearchInputClicked}/>
+        {searchInputClicked ? <SearchContainer searchInputClicked={searchInputClicked} setSearchInputClicked={setSearchInputClicked}/>:null}
         <CardInput/>
+      
         <ProfileInput/>
       </div>
     </div>

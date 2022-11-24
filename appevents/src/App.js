@@ -1,12 +1,14 @@
+import { WrapperApp } from "./components/Goba/WrapperApp";
 import RootNavigator from "./routes/RootNavigator";
 
 function App() {
   return (
-    <div className="App">
-      <div className='wrapperApp'>
-        <RootNavigator />
+    <WrapperApp>
+        <div className="wrapperApp">
+          <RootNavigator />
       </div>
-    </div>
+    
+    </WrapperApp>
   );
 }
 

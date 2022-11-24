@@ -1,11 +1,13 @@
 
 import React from 'react';
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo/logo2.png";
 
 export default function Logo() {
   return (
-    <div className=' h-[75px] bg-orange-700 items-end' >
-      <img className='h-[75px] bg-red-700' src={logo} alt="" />
+    <div className=' h-[75px] items-end' >
+      <Link  to="*"> <img className='h-[75px] ' src={logo} alt="" /></Link>
+     
     </div>
   )
 }
