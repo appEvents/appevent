@@ -1,0 +1,22 @@
+.wrapperTopEvents {
+    width: 100%;
+    height: 50vh;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+@media screen and (min-width:600px){
+    .wrapperTopEvents {
+        height: 60vh;
+    }
+}
+@media screen and (min-width:600px){
+    .wrapperTopEvents {
+        height: 70vh;
+    }
+}
+@media screen and (min-width:900px){
+    .wrapperTopEvents {
+        height: 90vh;
+    }
+}

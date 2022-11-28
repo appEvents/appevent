@@ -12,7 +12,7 @@ export default function Header() {
 
   const [searchInputClicked, setSearchInputClicked] = useState(false)
   return (
-    <div className='flex items-end justify-between w-[95%] h-[75px] '>
+    <div className='flex items-end justify-between w-[100%] h-[75px] '>
       <div className='wrapperLogoMenuBurger' >
         <MenuBurger/>
         <Logo/>

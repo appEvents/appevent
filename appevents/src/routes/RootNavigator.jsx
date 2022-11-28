@@ -22,7 +22,6 @@ export default function RootNavigator() {
                 <Route path='/cardEvents' element={ <CardEvents/>} />
                 <Route path='/notification' element={ <Notification/>} />
                 <Route path='/favorite' element={ <Favorite/>} />
-                
             </Routes>
     </div>
   )

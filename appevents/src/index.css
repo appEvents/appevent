@@ -9,6 +9,7 @@
 
 
 @import "../src/styles/header/Header.css";
+@import "../src/styles/Home/Home.css";
 @import "../src/styles/SearchBar/SearchBar.css";
 @import "../src/styles/MeuBurger/MenuBurger.css";
 @import "../src/styles/Card/CardInput.css";
@@ -17,6 +18,9 @@
 @import "../src/styles/MeuBurger/ManuBurgerContainer.css";
 @import "../src/styles/Card/CardContainer.css";
 @import "../src/styles/SearchBar/SearchContainer.css";
+@import "../src/styles/Footer/Footer.css";
+@import "../src/styles/Copyright/Copyright.css";
+@import "../src/styles/Events/Events.css";
 
 .App {
     display: flex;
