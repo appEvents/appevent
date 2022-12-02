@@ -25,33 +25,79 @@
 }
 
 .createaccount {
-    width: 70%;
-    background-color: yellow;
+    width: 100%;
 }
 
 .createaccount h1{
     font-size: 45px;
     font-weight: 900;
-    color: #7ed957;
+    color: #009640;
 }
 
 .createaccount h3{
     font-weight: bold;
-    color: rgb(222, 0, 0);
+    color: #6d6c6c;
 }
 
 .createaccount h2{
-    color: rgb(255, 13, 13);
+    color: #6d6c6c;
+}
+
+.input{
+    align-items:flex-end;
+    height: 97px;
+    width: 57%;
+    justify-content: space-between; 
+    display: flex;
 }
 
 .input input{
-    width: 230px;
-    height: 70px;
-    border-radius: 15px;
-
-    background-color: #7ed957;
+    width: 47%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #3b3a3a;
 }
 
-.longer{
-    width: 1000px;
+.longer {
+    height: 30%;
+    width: 57%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.longer input{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #3b3a3a;
+}
+
+.Btn{
+    width: 57%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Btn button {
+    color: #ffffff;
+    border-radius: 10px;
+    width: 45%;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.Btn button{
+
+}
+
+.input input::placeholder {
+    font-size: smaller;
+    color: rgb(94, 93, 93);
+  }
+
+.longer input::placeholder {
+    font-size: smaller;
+    color: rgb(94, 93, 93);
 }
