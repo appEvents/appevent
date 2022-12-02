@@ -6,12 +6,14 @@
 }
 
 
+
+
 .buttonMenuBurger {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 20px;
-    width: 30px;
+    width: 25px;
     cursor: pointer;
 }
 
@@ -21,37 +23,75 @@
     background-color: white;
 }
 
+.burgerBarClicked {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+
+.burgerBarClicked:nth-child(1) {
+    transform: rotate(45deg) translate(0.35em, 0.4em);
+    transition: ease-out 0.5s;
+    background-color: white;
+}
+
+.burgerBarClicked:nth-child(2) {
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+    background-color: white;
+}
+
+.burgerBarClicked:nth-child(3) {
+    transform: rotate(-45deg) translate(0.35em, -0.5em);
+    transition: ease-out 0.5s;
+    background-color: white;
+}
+
+.burgerBar {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
 
 
 @media screen and (max-width:700px) {
-   
+
     .wrapperMenuBurger {
         display: block;
         height: 75px;
         width: 50%;
-        background-color: orange;
+        /* background-color: orange; */
     }
-    
-.wrapperMenuBurger {
-    display: flex;
-    align-items: center;
-    height: 100%;
 
-}
-
-}
-
-
-@media screen and (max-width:450px) {
-    
-    .wrapperMenuBurger {
-        display: block;
-        width: 25%;
-    }
     .wrapperMenuBurger {
         display: flex;
         align-items: center;
         height: 100%;
-    
+
+    }
+
+    .wrapperButtonMenuBurger {
+        background-color: yellow;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:450px) {
+
+    .wrapperMenuBurger {
+        display: block;
+        width: 25%;
+    }
+
+    .wrapperMenuBurger {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+
     }
 }

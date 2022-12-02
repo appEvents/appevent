@@ -1,10 +1,10 @@
 import React from 'react'
 import Header from '../components/Header/Header'
 
-export default function Profile() {
+export default function Favorite() {
   return (
-    <div className='w-[100%] h-[100vh] bg-[yellow]'>
+    <div className='w-full h-[80vh] bg-[red]'>
       <Header/>
-      </div>
+    </div>
   )
 }

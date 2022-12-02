@@ -1,8 +1,16 @@
-import React from "react";
+import React,  {useState} from 'react'
 import { MdShoppingCart } from "react-icons/md";
+import { CardContainer } from '../../containers/CardContainer'
 
 export const CardInput = () => {
-  return <div className="wrapperCardInput">
-    <MdShoppingCart size={30} color="white"/>
-  </div>;
+  const [cardInputClicked, setCardInputClicked] = useState(false)
+
+   
+  return (<>
+      <div className="wrapperCardInput" onClick={() =>{ setCardInputClicked(!cardInputClicked)}}>
+          <MdShoppingCart size={30} color="white"/>
+      </div>
+      {cardInputClicked?<CardContainer STYLE={"wrapperCardContainer1"}/> : <CardContainer STYLE={"wrapperCardContainer"}/>}
+    </>
+    );
 };
