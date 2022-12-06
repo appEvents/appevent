@@ -15,16 +15,13 @@
 @import "../src/styles/Card/CardInput.css";
 @import "../src/styles/Profile/ProfileInput.css";
 @import "../src/styles/SearchBar/SearchInput.css";
-<<<<<<< HEAD
 @import "../src/styles/SignIn/SignIn.css";
-=======
 @import "../src/styles/MeuBurger/ManuBurgerContainer.css";
 @import "../src/styles/Card/CardContainer.css";
 @import "../src/styles/SearchBar/SearchContainer.css";
 @import "../src/styles/Footer/Footer.css";
 @import "../src/styles/Copyright/Copyright.css";
 @import "../src/styles/Events/Events.css";
->>>>>>> 99b17b02d69c09b2b28e40538419b117c102dcd6
 
 .App {
     display: flex;
