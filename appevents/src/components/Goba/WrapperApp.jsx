@@ -12,10 +12,10 @@ export const WrapperApp = (props) => {
         <div className='flex items-center flex-col  w-full  '>
             {/* <Header/> */}
             <div className='flex justify-center w-full h-full '>
-            <div className='flex flex-col justify-evenly absolute w-[20px] h-[40vh] left-[2.5%] top-[105px] z-[1] bg-[blue]'>
-            <Link  to="*"><HiHome size={20} color="white"/></Link>
-            <Link  to="/notification"><HiBellAlert size={20} color="white"/></Link>
-            <Link  to="/favorite"><HiHeart size={20} color="white"/></Link>
+            <div className='flex flex-col justify-evenly absolute w-[2.5%] h-[40vh] left-[2.5%] top-[105px] z-[1] bg-transparent '>
+            <Link className='bg-transparent'  to="*"><HiHome size={20} className='bg-transparent' color="white"/></Link>
+            <Link className='bg-transparent'  to="/notification"><HiBellAlert className='nav' size={20} color="white"/></Link>
+            <Link className='bg-transparent' to="/favorite"><HiHeart size={20} className='bg-transparent' color="white"/></Link>
             </div>
            
             {props.children}</div>

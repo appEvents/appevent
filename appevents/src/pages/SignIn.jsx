@@ -5,13 +5,13 @@ import Header from '../components/Header/Header'
 export default function SignIn() {
   return (
     <div>
-        <div className='flex items-center justify-center w-full h-[100vh] bg-black  '>
+        <div className='flex items-center justify-center w-full h-[100vh]  '>
           <div  className='pop-up'>
-            <div className='px-7 flex items-center w-full h-[90px] '>
+            <div className='px-7 flex items-center w-full h-[70px]  bg-transparent '>
               <Logo />
-              <div className='flex justify-evenly items-center w-[250px] opacity-90 h-[100%]'>
-              <h1>Home</h1>
-              <h1>Join</h1>
+              <div className='flex justify-evenly items-center w-[250px] h-[100%] bg-transparent '>
+              <h1 >Home</h1>
+              <h1 >Join</h1>
               </div>
             </div>
             <div className='flex justify-start px-12 border-box w-[70%] h-[87%]'> 

@@ -6,7 +6,7 @@ import { MdAccountBox } from "react-icons/md";
 export const ProfileInput = () => {
     return (
         <div className='wrapperProfileInput'>
-            <Link className="navLinkHeader" to="/profile"><MdAccountBox size={30} color="white"/></Link>
+            <Link className="navLinkHeader" to="/profile"><MdAccountBox size={20} color="white"/></Link>
             
         </div>
     );

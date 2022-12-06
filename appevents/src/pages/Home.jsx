@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className='flex flex-col justify-between w-[100%]  bg-red-800 '>
       <Header/>
-      <div className='flex justify-evenly items-center w-full h-[50px] bg-neutral-800'>
+      <div className='flex justify-evenly items-center w-full h-[50px] bg-[black] min-w-[300px]'>
         <Link to="*"><h2 className=' text-zinc-100'>Concerts</h2></Link>
         <Link to="/spectacles"><h2 className=' text-zinc-100'>Spectacles</h2></Link>
         <Link to="/festivales"><h2 className=' text-zinc-100'>Festivales</h2></Link>

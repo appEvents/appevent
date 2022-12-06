@@ -8,7 +8,7 @@ export const CardInput = () => {
    
   return (<>
       <div className="wrapperCardInput" onClick={() =>{ setCardInputClicked(!cardInputClicked)}}>
-          <MdShoppingCart size={30} color="white"/>
+          <MdShoppingCart size={20} color="white"/>
       </div>
       {cardInputClicked?<CardContainer STYLE={"wrapperCardContainer1"}/> : <CardContainer STYLE={"wrapperCardContainer"}/>}
     </>
