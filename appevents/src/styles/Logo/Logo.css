@@ -1,0 +1,7 @@
+.wrapperLogo{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    width: 120px;
+}
+

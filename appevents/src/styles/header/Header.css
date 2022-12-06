@@ -1,9 +1,8 @@
-
-
 .wrapperLogoMenuBurger {
+
     display: flex;
     align-items: flex-end;
-    width: 150px;
+    width: 130px;
     height: 75px;
     /* background-color: blueviolet; */
 }
@@ -22,7 +21,16 @@
     height: 75px;
     /* background-color: red; */
 }
+@media screen and (max-width:900px) {
+ 
 
+    .wrapperSearchBarCardProfile {
+        width: 100px;
+        height: 75px;
+        /* background-color: blueviolet; */
+    }
+    
+}
 
 @media screen and (max-width:800px) {
     .wrapperSearchBar {
@@ -32,16 +40,6 @@
     .wrapperSearchBarCardProfile {
         width: 200px;
         height: 75px;
-        /* background-color: blueviolet; */
     }
 }
 
-@media screen and (max-width:450px) {
-    .wrapperLogoMenuBurger {
-        display: flex;
-        align-items: flex-end;
-        width: 150px;
-        height: 75px;
-        /* background-color: blueviolet; */
-    }
-}
