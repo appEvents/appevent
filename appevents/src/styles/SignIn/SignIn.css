@@ -3,10 +3,12 @@
     height: 80%;
     box-sizing: border-box;
     /* background-color: #C6FAA1; */
+    
     background-image: url("../../assets/images/SignIn-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
     border-radius: 15px;
 }
 
@@ -25,6 +27,7 @@
 }
 
 .createaccount {
+    margin-top: 3%;
     width: 100%;
 }
 
@@ -46,7 +49,7 @@
 .input{
     align-items:flex-end;
     height: 97px;
-    width: 57%;
+    width: 40%;
     justify-content: space-between; 
     display: flex;
 }
@@ -56,11 +59,12 @@
     height: 60px;
     border-radius: 10px;
     background-color: #3b3a3a;
+    text-align: center;
 }
 
 .longer {
     height: 30%;
-    width: 57%;
+    width: 40%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -71,10 +75,11 @@
     height: 60px;
     border-radius: 10px;
     background-color: #3b3a3a;
+    text-align: center;
 }
 
 .Btn{
-    width: 57%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
 }
@@ -88,8 +93,13 @@
     font-weight: 650;
 }
 
-.Btn button{
-
+.Btn input {
+    color: #ffffff;
+    border-radius: 10px;
+    width: 45%;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 650;
 }
 
 .input input::placeholder {
@@ -100,4 +110,160 @@
 .longer input::placeholder {
     font-size: smaller;
     color: rgb(94, 93, 93);
+}
+
+@media (max-width: 830px){
+    .createaccount h1{
+        width: 100%;
+        font-size: 34px;
+    }
+    .createaccount h3{
+        font-size: 12px;
+        width: 100%;
+    }
+    .createaccount h2{
+        width: 100%;
+        font-size: 12px;
+    }
+    .input{
+        align-items:flex-end;
+        height: 97px;
+        width: 100%;
+        justify-content: space-between; 
+        display: flex;
+    }
+    .longer {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .Btn{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .createaccount {
+        align-items: center;
+        width: 87%;
+        margin-top: 27px;
+    }
+
+    .Btn button {
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 700px){
+    .createaccount h1{
+        width: 117%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .input{
+        align-items:flex-end;
+        height: 97px;
+        width: 117%;
+        justify-content: space-between; 
+        display: flex;
+    }
+    .longer {
+        height: 30%;
+        width: 117%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .Btn{
+        width: 117%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 400px) and (max-width:650px){
+    .createaccount h1{
+        width: 117%;
+        font-size: 27px;
+        text-align: center;
+    }
+    .input input{
+        width: 47%;
+        height: 47px;
+        border-radius: 7px;
+    }
+    .longer input{
+        width: 100%;
+        height: 47px;
+        border-radius: 7px;
+    }
+    .Btn button {
+        border-radius: 7px;
+        height: 37px;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 920px){
+    .createaccount h1{
+        width: 100%;
+        font-size: 35px;
+    }
+    .createaccount h3{
+        font-size: 15px;
+        width: 100%;
+    }
+    .createaccount h2{
+        font-size: 15px;
+        width: 100%;
+    }
+    .input{
+        align-items:flex-end;
+        height: 97px;
+        width: 40%;
+        justify-content: space-between; 
+        display: flex;
+    }
+    .longer {
+        height: 30%;
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .Btn{
+        width: 40%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .createaccount {
+        align-items: center;
+        width: 87%;
+        margin-top: 27px;
+    }
+
+    .Btn button {
+        font-size: 12px;
+    }
+    .input input{
+        width: 47%;
+        height: 47px;
+        border-radius: 7px;
+    }
+    .longer input{
+        width: 100%;
+        height: 47px;
+        border-radius: 7px;
+    }
+    .Btn button {
+        border-radius: 7px;
+        height: 37px;
+        font-size: 11px;
+    }
+    
 }
